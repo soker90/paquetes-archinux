@@ -4,7 +4,8 @@ Packages uploaded to AUR
 | Package            | Version    | Current Maintainer |
 | ------------------ | ---------- |  ----------------  |
 | betcon             | [![AUR package](https://repology.org/badge/version-for-repo/aur/betcon.svg)](https://aur.archlinux.org/packages/betcon) | :white_check_mark: |
-| duckietv           | [![AUR package](https://repology.org/badge/version-for-repo/aur/duckietv.svg)](https://aur.archlinux.org/packages/duckietv) |:red_circle: |
+| duckietv           | [![AUR package](https://repology.org/badge/version-for-repo/aur/duckietv.svg)](https://aur.archlinux.org/packages/duckietv) | :red_circle: |
+| eclipse-i18n-es    | [![AUR package](https://repology.org/badge/version-for-repo/aur/eclipse-i18n-es.svg)](https://aur.archlinux.org/packages/eclipse-i18n-es) | :white_check_mark: |
 | google-talkplugin  | [![AUR package](https://repology.org/badge/version-for-repo/aur/google-talkplugin.svg)](https://aur.archlinux.org/packages/google-talkplugin) | :red_circle: |
 | kickthemout-git    | [![AUR package](https://repology.org/badge/version-for-repo/aur/kickthemout.svg)](https://aur.archlinux.org/packages/kickthemout-git) | :white_check_mark: |
 | netbeans-es        | [![AUR package](https://repology.org/badge/version-for-repo/aur/netbeans-es.svg)](https://aur.archlinux.org/packages/netbeans-es) | :white_check_mark: |
