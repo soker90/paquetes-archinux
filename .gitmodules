@@ -1,0 +1,3 @@
+[submodule "python-lml"]
+	path = python-lml
+	url = https://github.com/soker90/aur-python-lml.git
