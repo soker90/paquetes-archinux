@@ -4,3 +4,9 @@
 [submodule "betcon"]
 	path = betcon
 	url = https://github.com/soker90/aur-betcon.git
+[submodule "kickthemout-git"]
+	path = kickthemout-git
+	url = https://github.com/soker90/aur-kickthemout-git.git
+[submodule "eclipse-i18n-es"]
+	path = eclipse-i18n-es
+	url = https://github.com/soker90/aur-eclipse-i18n-es.git
