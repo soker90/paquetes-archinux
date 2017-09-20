@@ -10,3 +10,6 @@
 [submodule "eclipse-i18n-es"]
 	path = eclipse-i18n-es
 	url = https://github.com/soker90/aur-eclipse-i18n-es.git
+[submodule "netbeans-es"]
+	path = netbeans-es
+	url = https://github.com/soker90/aur-netbeans-es.git
