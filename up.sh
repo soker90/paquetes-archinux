@@ -8,14 +8,14 @@ DIRS=`ls -d $DIR/*/`
 for i in $DIRS
   do 
     cd $DIR
-    if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ]
+    if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ] && [ -e ".git" ]
     then
       cd $i
       echo `pwd`
       git pull
       for j in `ls -ac1`
       do
-        if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ]
+        if [ "$j" != "." ] && [ "$j" != ".." ] && [ "$j" != ".git" ]
         then
           git add $j
         fi
@@ -30,12 +30,13 @@ for i in $DIRS
 
 #if [ -e ".git" ]
 #then
+  cd $DIR
   git pull
   for j in `ls -ac1`
   do
-    if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ]
+    if [ "$j" != "." ] && [ "$j" != ".." ] && [ "$j" != ".git" ]
     then
-      git add j
+      git add $j
     fi
   done
   git commit -m "$MEN"
