@@ -8,7 +8,7 @@ DIRS=`ls -d $DIR/*/`
 for i in $DIRS
   do 
     cd $DIR
-    if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ] && [ -e ".git" ]
+    if [ "$i" != "." ] && [ "$i" != ".." ] && [ "$i" != ".git" ] && [ -d ".git/" ]
     then
       cd $i
       echo `pwd`
